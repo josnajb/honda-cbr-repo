@@ -1,0 +1,244 @@
+/* =============common style=============== */
+
+body{
+    font-family: 'Lato',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0;
+}
+.content{
+    background: #264653;
+}
+/*============ menubar =================*/
+.menu{
+    padding: 0;  
+}
+.menu li{
+    display: inline;
+}
+.menu li a{
+    padding: 0px 20px;
+    color: #fffff4;
+    text-decoration: none;  
+}
+
+.topbar{
+    display: flex;
+    width: 600px; 
+    padding: 60px;
+    margin-left: 700px;
+}
+.head-button{
+    background: #e76f51;
+    margin-left: 60px;
+	border-radius: 5px;
+	text-decoration: none;
+    color: #fffff4;
+	text-transform: capitalize;
+    padding: 15px 20px;
+}
+/* ================menubar end================= */
+.button{
+    margin-top: 0px 20pxpx;
+    background: #e76f51;
+	border-radius: 5px;
+	text-decoration: none;
+	text-transform: capitalize;
+    padding: 15px 50px;
+    color: #fffff4;
+}
+span{
+   color: #e76f51; 
+    
+}
+
+.banner{
+    width: 500px;
+    margin: 40px;
+}
+.banner h1{
+    font-size: 3em;
+    line-height: 0;
+   margin-bottom: 50px;
+}
+.top-banner{
+    width: 600px;
+    margin-left: 60px;
+}
+.top-banner img{
+    width: 100%;
+   margin-bottom: 50px;
+}
+.banners{
+    margin: 0;
+    display: flex;
+    color:#fffff4 ;
+    justify-content: center; 
+}
+.banner p{
+    line-height: 25px;
+   margin-bottom: 40px;
+}
+/* =======================header end============= */
+/* ==============best-bike=================== */
+.head-light{
+   text-align: center;
+   margin-bottom: 50px;
+
+}
+.head-light h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.bikes{
+    margin: 0 auto;
+    width: 1200px;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+.bike{
+    width: 300px;
+}
+.bike img{
+    width: 100%;
+    padding: 20px;
+}
+.best-bike{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* ===============latest-news======================= */
+.head-title{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.title{
+    padding: 20px;
+    width: 340px;
+    box-shadow: 0px 1px 5px #cecece;
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
+.title p{
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.title h1{
+    font-size: 33px;
+}
+.title img{
+    width: 100%;
+}
+.button1{
+    background: #e76f51;
+    text-decoration: none;
+    color: #fffff4;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.button2{
+    width: 50px;
+    text-decoration: none;
+    color: #fffff4;
+    padding: 20px 40px;
+    border: 2px solid #e76f51;
+    border-radius: 10px;
+}
+/* ===================happy clients=========== */
+.paragraph{
+    margin: 0 auto;
+    width: 1100px;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+.bike1{
+    width: 270px;
+    border: 2px solid#cecece;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+}
+.bike1 p{
+   line-height: 30px;
+}
+.logo{
+    width: 150px;
+    margin: 0 auto;
+}
+.logo img{
+    width: 100%;
+}
+.logo1{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.logo1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.clients{
+    color: blue;
+}
+.clients1{
+    background: rgb(80, 178, 235);
+    width: 55px;
+    height: 25px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.clients2{
+    font-weight: bold;
+}
+ul{
+  display: flex; 
+  margin: 10px;
+}
+ul li{
+   list-style-type: none;
+   font-size: 20px;
+   padding: 5px;
+  
+   color: #e76f51; 
+}
+/* ================question================= */
+.end-title{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.end{
+    width: 500px;
+}
+.end2{
+    width: 500px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.end img{
+    width: 100%;
+    padding: 20px;
+}
+/* ================footer================== */
+.para{
+    background: #0b0d17;
+    padding: 50px;
+   
+}
+.end-para{
+    width: 1160px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+/* ================footer end================== */
